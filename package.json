@@ -1,0 +1,27 @@
+{
+  "name": "js-video-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppumang/js-video-rtc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppumang/js-video-rtc/issues"
+  },
+  "homepage": "https://github.com/ppumang/js-video-rtc#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
